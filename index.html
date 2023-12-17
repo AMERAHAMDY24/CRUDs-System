@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="w-50 m-auto shadow-lg p-4 my-5">
+        <h2>CRUDs System</h2>
+        <input type="text" name="" class="form-control " id="prodName" placeholder="Enter product name">
+        <input type="text" name="" class="form-control my-3" id="prodCategName" placeholder="Enter prodCategory">
+        <input type="number" name="" class="form-control my-3" id="prodPriceName" placeholder="Enter prodPrice ">
+<textarea name="" id="prodDescName" cols="30" rows="4" class="form-control" placeholder="Enter product Description"></textarea>
+        <button onclick="main()" class="btn btn-primary my-3"> Add peoduct</button>
+    </div>
+    <div class="container">
+        <table class="table text-center">
+
+            <thead>
+<th>index</th>
+<th>name</th>
+<th>Category</th>
+
+<th>price</th>
+<th>Description</th>
+<th>Update</th>
+<th>Delete</th>
+
+            </thead>
+            <tbody id="tbodyid">
+            </tbody>
+        </table>
+    </div>
+  <script src="js/bootstrap.bundle.min.js"></script>  
+  <script src="js/main.js"></script>
+</body>
+</html>
