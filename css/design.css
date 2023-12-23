@@ -1,0 +1,31 @@
+textarea{
+    resize: none ;
+    background-color: #BB2525 !important;
+}
+body{
+    background-color:  #141E46 !important;
+}
+input{
+    background-color: #BB2525 !important;
+}
+.table{
+
+
+--bs-table-bg: #BB2525 !important;
+}
+.cardd{
+    background-color: #BB2525;
+}
+button{
+    background-color: #FF6969 !important;
+}
+#UpdateButton{
+    background-color: gray !important;
+}
+.form-control:focus{
+    border-color:transparent !important;
+    box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.976)!important;
+}
+::placeholder , th ,td{
+    color: white !important;
+}
