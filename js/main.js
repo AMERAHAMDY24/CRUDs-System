@@ -180,7 +180,7 @@ else{
 }
 function validateDescription()
 {
-    var regex=/^[A-Za-z]{120,}$/
+    var regex=/^[A-Za-z\.\$_0-9\s:,]{100,}$/
     if(regex.test(prodDescName.value)==true){
 
         prodDescName.style.border="1px solid white"
